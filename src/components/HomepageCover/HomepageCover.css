@@ -1,0 +1,70 @@
+.SDP0001-container-fluid {
+  padding: 20px; /* Espaciado interno */
+}
+
+.SDP0001-flex-container {
+  display: flex; /* Hacer que los elementos se alineen en una fila */
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan a una nueva línea si no hay suficiente espacio */
+  justify-content: space-between; /* Distribuir uniformemente los elementos a lo largo del contenedor */
+}
+
+.SDP0001-item {
+  flex-basis: calc(50% - 10px); /* Asegurarse de que cada elemento ocupe el 50% del ancho del contenedor, dejando un espacio entre ellos */
+  margin-bottom: 20px; /* Espacio entre elementos */
+}
+
+.SDP0001-card-category {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(32, 159, 195, 0.445);
+  color: #fff;
+  padding: 5px 10px;
+  border-top-right-radius: 5px;
+}
+
+.SDP0001-card-img-top {
+  width: 100%;
+}
+
+.SDP0001-card-body {
+  position: relative;
+}
+
+/* Estilos para la tarjeta de noticia */
+.SDP0001-card {
+  border: none; /* Quita el borde por defecto */
+}
+
+.SDP0001-card-body {
+  background-color: #f8f9fa; /* Fondo gris claro */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.SDP0001-card-title {
+  color: #212529; /* Color de texto oscuro */
+}
+
+.SDP0001-card-text {
+  color: #6c757d; /* Color de texto gris */
+}
+
+.SDP0001-btn-primary {
+  background-color: #007bff; /* Color de fondo azul */
+  border-color: #007bff; /* Color de borde azul */
+}
+
+.SDP0001-btn-primary:hover {
+  background-color: #0056b3; /* Color de fondo azul más oscuro al pasar el mouse */
+  border-color: #0056b3; /* Color de borde azul más oscuro al pasar el mouse */
+}
+
+/* Estilos para el contenedor de carruseles */
+.SDP0001-carousel-container {
+  position: relative;
+}
+
+.SDP0001-carousel {
+  margin-left: 20px;
+  width: 100%;
+}

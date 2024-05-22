@@ -1,23 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
-
+import BannerPage from './components/BannerPage/BannerPage';
+import HomepageCover from './components/HomepageCover/HomepageCover';
+import CardSection from './components/CardSection/CardSection';
+import MenuPage from './components/MenuPage/MenuPage';
+import SocialNetwork from './components/SocialNetwork/SocialNetwork';
+import FooterSection from './components/FooterSection';
+import SearchBar from './components/SearchBar/SearchBar';
+import NotificationSubscriptionForm from './components/NotificationSubscriptionForm/NotificationSubscriptionForm';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BannerPage />
+      <SearchBar />
+      <MenuPage />
+      <HomepageCover />
+      <CardSection/>
+      <SocialNetwork/>
+      <NotificationSubscriptionForm/>
+      <FooterSection/>
+      {/* Aquí puedes agregar más componentes o contenido según sea necesario */}
     </div>
   );
 }

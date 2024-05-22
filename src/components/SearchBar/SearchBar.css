@@ -1,0 +1,50 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .search-bar input[type="text"] {
+    flex: 1; /* El campo de entrada toma todo el espacio disponible */
+    padding: 10px; /* Aumenta el padding para hacerlo más grande */
+    border-radius: 20px; /* Mayor border-radius para una apariencia más suave */
+    border: 1px solid #ccc;
+    font-size: 12px;
+    outline: none;
+  }
+  
+  .search-bar button[type="submit"] {
+    background-color: #074949;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px; /* Aumenta el padding para hacerlo más grande */
+    margin-left: 10px; /* Aumenta el espacio entre el input y el botón */
+    cursor: pointer;
+  }
+  
+  .search-bar button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsividad */
+  @media screen and (max-width: 768px) {
+    .search-bar {
+      flex-direction: column; /* Cambia la dirección a columna en pantallas más pequeñas */
+      align-items: stretch; /* Estira los elementos verticalmente */
+    }
+  
+    .search-bar input[type="text"] {
+      margin-bottom: 10px; /* Agrega espacio entre el input y el botón en pantallas pequeñas */
+    }
+  
+    .search-bar button[type="submit"] {
+      margin-left: 0; /* Quita el margen izquierdo en pantallas pequeñas */
+    }
+  }
+  

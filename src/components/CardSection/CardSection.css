@@ -1,0 +1,89 @@
+/*******************************************************************************************************/
+/*******************************************************************************************************/
+/*****************************************SECCION-TARJETAS-ST0001 **************************************/
+/*******************************************************************************************************/
+/*******************************************************************************************************/
+
+/* Define la variable en :root para hacerla global */
+:root {
+    --gradient-colors: #279e37 0%, #3e5ac7 50%, #0b48b8 100%;
+  }
+  
+  /* Estilo general para el cuerpo */
+  .ST0001-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, var(--gradient-colors)); /* Utiliza la variable */
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .ST0001-container-fluid {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, var(--gradient-colors)); /* Utiliza la variable */
+  }
+  
+  /* Contenedor principal */
+  .container {
+    max-width: none;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para las tarjetas */
+  .ST0001-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .ST0001-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Imagen de la tarjeta */
+  .ST0001-card-img-top {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Contenido de la tarjeta */
+  .ST0001-card-body {
+    padding: 20px;
+  }
+  
+  .ST0001-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .ST0001-card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Estilo adicional para la categoría de la tarjeta */
+  .ST0001-card-category {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right, var(--gradient-colors)); /* Utiliza la variable */
+    color: #fff;
+    padding: 5px 10px;
+    border-top-right-radius: 5px;
+  }
+  
+  /* Efecto hover para el botón */
+  .ST0001-btn-primary {
+    transition: background-color 0.3s ease;
+  }
+  
+  .ST0001-btn-primary:hover {
+    background-color: #4CAF50;
+  }

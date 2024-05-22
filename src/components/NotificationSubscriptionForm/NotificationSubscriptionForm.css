@@ -1,0 +1,80 @@
+/************************************************************************************************************/
+/************************************************************************************************************/
+/*******************************FORMULARIO SUSCRIPCION NOTIFICACION FSN0001 *********************************/
+/************************************************************************************************************/
+/************************************************************************************************************/
+
+/* Define la variable en :root para hacerla global */
+:root {
+    --gradient-colors: #279e37 0%, #3e5ac7 50%, #0b48b8 100%;
+  }
+  
+  /* Estilo para la sección de suscripción */
+.FSN0001-signup-section {
+    background-image: linear-gradient(to right, var(--gradient-colors));  /* Ruta de la imagen de fondo */
+    background-size: cover; /* Escalar la imagen para que cubra todo el fondo */
+    background-position: center; /* Posición de la imagen de fondo */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    padding: 50px 0; /* Espaciado interno */
+    margin-top: 2px;
+    margin-bottom: 2px;
+}   
+
+/* Estilo para el contenedor */
+.FSN0001-container {
+    max-width: 90%; /* Ancho máximo del contenedor, el 90% del ancho del contenedor padre */
+    margin: 0 auto; /* Centrar el contenedor en la página */
+}
+
+/* Estilo para centrar el texto */
+.FSN0001-text-center {
+    text-align: center;
+}
+
+/* Estilo para los campos de formulario */
+.FSN0001-form-control {
+    width: 100%; /* Ancho completo */
+    padding: 15px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espacio inferior */
+    border: 2px solid #ccc; /* Borde */
+    border-radius: 20px; /* Radio de borde */
+    font-size: 18px; /* Tamaño de fuente */
+}
+
+/* Estilo para los botones */
+.FSN0001-btn {
+    padding: 15px 30px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 20px; /* Radio de borde */
+    cursor: pointer; /* Cursor */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Peso de la fuente */
+}
+
+/* Estilo para el botón primario */
+.FSN0001-btn-primary {
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color de texto */
+}
+
+
+/* Estilo para el color y tipo de letra del título */
+.FSN0001-h2 {
+    color: #fff; /* Color de texto blanco */
+    font-family: 'Arial', sans-serif; /* Tipo de letra */
+    font-size: 48px; /* Tamaño de fuente */
+    font-weight: bold; /* Peso de la fuente */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+}
+
+/* Estilo para el input de formulario en el hover */
+.FSN0001-form-control:hover {
+    border-color: #007bff; /* Cambia el color del borde al hacer hover */
+    padding: 16px; /* Ajusta el espaciado interno para agrandar un poco el input */
+}
+
+
+/* Estilo para el botón de formulario en el hover */
+.FSN0001-btn:hover {
+    background-color: #73af80; /* Cambia el color de fondo al hacer hover */
+}

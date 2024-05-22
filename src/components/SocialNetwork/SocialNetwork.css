@@ -1,0 +1,37 @@
+/* Define la variable en :root para hacerla global */
+:root {
+    --SRS0001-gradient-colors-social-media-background: #168b26 0%, #134855 50%, #0f59e2 100%;
+  }
+
+  
+.SRS0001-container{
+    background-image: linear-gradient(to right, var(--SRS0001-gradient-colors-social-media-background)); /* Utiliza la variable */
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.SRS0001-social-icons-section {
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.SRS0001-social-icons-section h1 {
+    /* Estilos específicos para el h2 dentro de la clase ST0001-social-icons-section */
+    color: #ffffff; /* Cambia el color del texto a gris oscuro */
+    font-size: 32px; /* Tamaño de fuente */
+    margin-bottom: 20px; /* Espacio inferior */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+}
+
+
+.SRS0001-social-icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+.SRS0001-social-icons i {
+    margin: 0 10px;
+}
